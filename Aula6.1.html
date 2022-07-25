@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--- Head é a área de configurações -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento que editei</title>
+    <style>
+      body {
+        background-color: rgb(132, 132, 235);
+        color: rgb(255, 255, 255);
+        font: normal 20pt Arial; /* Comentário CSS */
+      }
+      h1 {
+        color: rgb(247, 247, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <!--- Body é Parte visível -->
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+    <script>
+        var n1 = Number(prompt('Digite um número: ')) // prompt retorna String
+        var n2 = Number(prompt('Digite outro número: ')) // parseInt converte para int
+                                                         // parseFloat converte para real
+        var soma = n1 + n2                               // Number converte tanto para int quanto para real
+        alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // ${} -> Temṕlate Strings
+        // string + string pra concatenação
+        // number + number pra adição
+        // String(soma) converte para string
+    </script>
+  </body>
+</html>
