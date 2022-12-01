@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--- Head é a área de configurações -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documento que editei</title>
+    <style>
+      body {
+        background-color: rgb(132, 132, 235);
+        color: rgb(255, 255, 255);
+        font: normal 20pt Arial; /* Comentário CSS */
+      }
+      h1 {
+        color: rgb(247, 247, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <!--- Body é Parte visível -->
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+    <script>
+
+      let nome = prompt('Qual é o seu nome?'); // Armazena o nome digitado na variável Nome
+
+      let maisculo = nome.toUpperCase() // Armazena o AUMENTATIVO de 'nome' na variavel 'maisculo'
+
+      let s = 'JavaScript'
+        
+        alert(`Número de letras na palavra JavaScript: ${s.length}`) // O .'length' apresenta a quantidade de letras da palavra apontada pela variável
+      
+        //Exemplo de String
+        alert('É um prazer te conhecer, ' + nome + "!") // Precisa de concatenação " '+ nome +' "
+        //Exemplo de String
+        alert( `O ${nome} estuda na unifal!`) // NÃO precisa de concatenação
+
+        alert(`Tchau, ${maisculo}!`)
+
+        alert(`Eu me chamo ${maisculo} e sempre será o aumentativo do nome ${maisculo}!`)
+
+        alert(`Número de letras de ${nome}: ${maisculo.length}`)
+
+    </script>
+  </body>
+</html>
