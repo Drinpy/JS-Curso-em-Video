@@ -13,6 +13,6 @@
 
         alert(`Tchau, ${maisculo}!`)
 
-        alert(`Eu me chamo ${maisculo} e sempre será o aumentativo do nome ${maisculo}!`)
+        alert(`Meu nome em maíusculo fica: ${maisculo}!`)
 
         alert(`Número de letras de ${nome}: ${maisculo.length}`)
