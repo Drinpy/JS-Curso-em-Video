@@ -4,7 +4,7 @@
 
       let s = 'JavaScript'
         
-        alert(`Número de letras na palavra JavaScript: ${s.length}`) // O .'length' apresenta a quantidade de letras da palavra apontada pela variável
+        alert(`Número de letras na palavra JavaScript: ${s.length}`) // O '.length' apresenta a quantidade de letras da palavra apontada pela variável
       
         //Exemplo de String
         alert('É um prazer te conhecer, ' + nome + "!") // Precisa de concatenação " '+ nome +' "
