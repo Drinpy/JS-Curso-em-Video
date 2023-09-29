@@ -9,23 +9,27 @@
         body {
             font: normal 20pt Arial;
             background-color: antiquewhite;
+        
         }
     </style>
 </head>
 <body>
-    
+   
     <script>
+        
         // Formatando Strings!!
         var nome = prompt("Qual é seu nome?")
+
         document.write(`Oi, ${nome}. Seu nome tem ${nome.length} letras! <br/>`) // Conta a qtd de letras do número INCLUINDO O ESPAÇO!
         document.write(`Seu nome maiúsculo fica: ${nome.toUpperCase()} <br/>`)
         document.write(`Seu nome minúsculo fica: ${nome.toLowerCase()} <br/>`)
         // Formatando Números!!
-        var n1 = 1500.5
+        var n1 = 1500.543210
         n1.toFixed(2) // Define quantidade de números decimais que vai aparecer
         n1.toFixed(2).replace(".", ",") // Troca o primeiro sinal declarado pelo segundo definido no caso ',' no lugar de '.'
         n1.toLocaleString("pt-BR", {style: "currency", currency: "BRL"}) // Transforma o número para o padrão monetário do BRASIl que no caso é Real(R$).
-        document.write(`Eu tenho ${n1} reais`)
+        document.write(`Eu tenho ${n1.toFixed(2).replace(".", ",")} reais <br/>`)
+        
    </script>
 </body>
 </html>
